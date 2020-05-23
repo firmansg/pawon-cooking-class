@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en" id="home">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700&family=Esteban&display=swap"
+    rel="stylesheet">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Pawon Cooking Class</title>
+</head>
+
+<body>
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid category">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active mt-5">
+            <nav>
+              <ol class="breadcrumb bg-transparent justify-content-center">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart Checkout</li>
+              </ol>
+            </nav>
+            <h3 class="text-center">Your Cart</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron End -->
+
+  <!-- Checkout -->
+  <section class="checkout">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h5 class="mb-4">Your Course</h5>
+          <div class="row">
+            <div class="col-lg-5 mr-0">
+              <img src="img/checkout/Mask Group 21.png" alt="">
+            </div>
+            <div class="col">
+              <h5 class="mb-0">French Recipes (Include 999 recipes)</h5>
+              <large class="mt-1" style="color: #b7b7b7;">$95.32</large>
+            </div>
+          </div>
+
+          <h5 class="mb-4" style="margin-top: 50px;">Your Account</h5>
+          <form style="width: 70%;">
+            <div class="form-group">
+              <label for="address">Name</label>
+              <input type="text" class="form-control" id="address" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="address2">Email</label>
+              <input type="text" class="form-control" id="address2" placeholder="Your email">
+            </div>
+            <div class="form-group">
+              <label for="country">Country</label>
+              <select class="custom-select">
+                <option selected>Select Country</option>
+                <option value="1">Indonesia</option>
+                <option value="2">Spain</option>
+                <option value="3">Italy</option>
+                <option value="3">Germany</option>
+                <option value="3">French</option>
+                <option value="3">United State</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="city">City</label>
+              <select class="custom-select">
+                <option selected>Select City</option>
+                <option value="1">Jakarta</option>
+                <option value="2">Madrid</option>
+                <option value="3">Milan</option>
+                <option value="3">Berlin</option>
+                <option value="3">Paris</option>
+                <option value="3">Monaco</option>
+                <option value="3">New York</option>
+              </select>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card rounded-0 checkout-detail">
+            <div class="card-body">
+              <h5 class="card-title mb-4">Order Details</h5>
+
+              <div class="row mb-4">
+                <div class="col">
+                  <h6 class="m-0">French Recipes (Include 999 recipes)</h6>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <h6 class="m-0 align-self-center text-success">$95.32</h6>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row mb-5">
+                <div class="col">
+                  <h6 class="m-0">Discount</h6>
+                  <small style="color: #b7b7b7;">10% OFF</small>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <h6 class="m-0 align-self-center text-danger">- $10</h6>
+                </div>
+              </div>
+
+              <div class="row mb-5">
+                <div class="col">
+                  <h6 class="m-0">Payment Total</h6>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <h6 class="m-0 align-self-center text-primary">$85.32</h6>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col">
+                  <h6 class="m-0">Payment Method</h6>
+                  <img width="77px" height="77px" src="img/checkout/paypal.png" alt="" class="mr-3">
+                  <img width="77px" height="77px" src="img/checkout/mastercard.png" alt="" class="mr-3">
+                  <img width="77px" height="77px" src="img/checkout/maestro.png" alt="" class="mr-3">
+                  <img width="77px" height="77px" src="img/checkout/visa.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col">
+              <a href="single.html" style="text-decoration: none;"><button type="button" class="btn btn-block"
+                  style="background-color: #eaeaef; color: #adadad;">Cancel</button></a>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-block btn-danger" data-toggle="modal"
+                data-target="#btn-checkout">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Checkout end -->
+
+  <!-- Modal -->
+  <div class="modal fade checkout-success" id="btn-checkout" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <img src="img/checkout/ic_sukses_checkout.png" class="mb-5">
+          <h3>Checkout Success</h3>
+          <p style="color: #acacac;">Your course link will be sent<br>
+            to your email.</p>
+          <a href="index.html"><button type="button" class="btn mt-3"
+              style="background-color: #eaeaef; color: #adadad;">Back to Home</button></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class=" container">
+      <div class="row pt-5">
+        <div class="col">
+          <h3>PAWON</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <nav class="nav text-uppercase">
+            <a class="nav-link active" href="#">Jobs</a>
+            <a class="nav-link" href="#">Terms</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link page-scroll" href="#about">About</a>
+            <a class="nav-link page-scroll" href="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>All Rights Reserved by <a href="#">PAWON</a> &copy Copyright 2020.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Scroll to top button -->
+  <a id="back-to-top" href="#" class="btn btn-dark back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.4.1.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.min.js">
+  </script>
+  <script src="js/script.js"></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>
