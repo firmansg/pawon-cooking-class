@@ -1,7 +1,7 @@
 # Pawon Cooking Class
-Final project Buildwithangga class course
+Final project Buildwithangga course
 
-Tools for build this project:
+Tools that was used to build this project:
 - Adobe XD
 - Visual Studio Code
 - Bootstrap
